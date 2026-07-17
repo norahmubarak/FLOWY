@@ -955,14 +955,14 @@ header {
 
 }
 .best-sellers{
-    padding: 0 20px;
+    padding: 0 12px;
+    max-width: 100%;
 }
 
 .best-sellers h2{
     margin-top: 50px;
     margin-bottom: 25px;
     font-size: 20px;
-    align-self: center;
     align-items: center;
 }
 
@@ -978,8 +978,7 @@ header {
 
 
 .best-sellers-card{
-    flex:0 0 100px;
-    
+    flex:0 0 180px;
 }
 
 .best-sellers-image img{
