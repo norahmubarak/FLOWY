@@ -628,6 +628,11 @@ header {
     color:#fff;
 }
 
+.load-more-btn{
+    display:none;
+}
+
+
 @media (max-width:780px){
 
     .menu-icon{
@@ -1013,6 +1018,28 @@ header {
 }
 
 .best-sellers-card .cart-btn:hover{
+    background:var(--bt-color);
+    color:#fff;
+}
+
+.best-sellers-card.hidden{
+    display:none;
+}
+
+.load-more-btn{
+    display:flex;
+    justify-content:center;
+    margin:30px auto 0;
+    background:var(--bt2-color);
+    border:1px solid var(--bt2-color);
+    border-radius:999px;
+    padding:10px 35px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.load-more-btn:hover{
     background:var(--bt-color);
     color:#fff;
 }

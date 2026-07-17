@@ -39,3 +39,21 @@ document.addEventListener("click", (e) => {
         dropdownMenu.classList.remove("active");
     }
 });
+
+const cards = document.querySelectorAll(".best-sellers-card");
+const loadMoreBtn = document.getElementById("loadMoreBtn");
+
+if (window.innerWidth <= 780) {
+
+    cards.forEach((card, index) => {
+        if (index >= 4) {
+            card.classList.add("hidden");
+        }
+    });
+
+    loadMoreBtn.addEventListener("click", () => {
+        cards.forEach(card => card.classList.remove("hidden"));
+        loadMoreBtn.style.display = "none";
+    });
+
+}
