@@ -867,11 +867,12 @@ header {
 }
 
 .cart-btn{
+    color:#353434;
     margin-top:18px;
     background:none;
-    border:1px solid #232222;
+    border:1px solid #353434;
     border-radius:999px;
-    padding:8px 30px;
+    padding:6px 30px;
     font-size:12px;
     cursor:pointer;
     transition:.3s;
@@ -881,7 +882,8 @@ header {
 
 .cart-btn iconify-icon{
     font-size:15px;
-    color:#232222;
+    color:inherit;
+
 }
 
 .cart-btn:hover{
@@ -897,10 +899,10 @@ header {
 .promo-banner{
     display:flex;
     align-items:center;
-    max-width:1400px;
-    width:95%;
+    max-width:1500px;
+    width:105%;
     height:130px;
-    border-radius:20px;
+    border-radius:0px;
     margin:20px auto;
     overflow:hidden;
     background:var(--bt-color);
@@ -931,7 +933,7 @@ header {
 }
 
 .promo-content p{
-    font-size:8px;
+    font-size:12px;
     line-height:1.8;
     margin-bottom:14px;
     color:#e8e8e8;
@@ -948,8 +950,8 @@ header {
     transition:.3s;
 }
 .promo-content a:hover{
-    color:#7c8e2f;
-    border-bottom:1px solid #7c8e2f;
+    color:#fff;
+    border-bottom:1px solid #fff;
 
 }
 .best-sellers{
@@ -959,7 +961,8 @@ header {
 .best-sellers h2{
     margin-top: 50px;
     margin-bottom: 25px;
-    font-size: 28px;
+    font-size: 20px;
+    align-self: center;
 }
 
 .best-sellers-grid{
@@ -992,11 +995,12 @@ header {
 }
 
 .best-sellers-card .cart-btn{
+    color:#353434;
     margin-top:18px;
     background:none;
-    border:1px solid #232222;
+    border:1px solid #353434;
     border-radius:999px;
-    padding:8px 30px;
+    padding:6px 30px;
     font-size:12px;
     cursor:pointer;
     transition:.3s;
