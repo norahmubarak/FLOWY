@@ -971,7 +971,6 @@ header {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
-    padding: 0 10px;
     overflow-x: auto;
     justify-items: center;
 }
@@ -984,7 +983,7 @@ header {
 }
 
 .best-sellers-image img{
-    height: 200px;
+    height: 190px;
 }
 
 .best-sellers-card h3{
