@@ -967,9 +967,9 @@ header {
 
 .best-sellers-grid{
     width: 100%;
-   display: grid;
+    display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 20px;
+    gap: 15px;
     justify-items: center;
     overflow-x: auto;
 }
@@ -979,12 +979,12 @@ header {
 }
 
 .best-sellers-card{
-    flex: 0 0 180px;
+    flex: 0 0 100%;
     
 }
 
 .best-sellers-image img{
-    height: 180px;
+    height: 250px;
 }
 
 .best-sellers-card h3{
