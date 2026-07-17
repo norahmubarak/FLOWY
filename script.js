@@ -32,10 +32,10 @@ dropdownBtn.addEventListener("click", (e) => {
 // إغلاق القائمة المنسدلة عند الضغط خارجها
 document.addEventListener("click", (e) => {
     if (
-        dropdownMenu.style.display === "block" &&
+        dropdownMenu.classList.contains("active") &&
         !dropdownMenu.contains(e.target) &&
         !dropdownBtn.contains(e.target)
     ) {
-        dropdownMenu.style.display = "none";
+        dropdownMenu.classList.remove("active");
     }
 });
