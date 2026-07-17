@@ -773,7 +773,6 @@ header {
     overflow-x:auto;
     -webkit-overflow-scrolling:touch;
     scrollbar-width:none;
-    padding-bottom:8px;
 }
 
 .categories::-webkit-scrollbar{
@@ -814,12 +813,12 @@ header {
 .product-image{
     position:relative;
     overflow:hidden;
-    border-radius:20px;
+    border-radius:10px;
 }
 
 .product-image img{
     width:100%;
-    height:150px;
+    height:200px;
     object-fit:cover;
     display:block;
     transition:.4s;
@@ -870,7 +869,7 @@ header {
 .cart-btn{
     margin-top:18px;
     background:none;
-    border:1px solid var(--bt-color);
+    border:1px solid #232222;
     border-radius:999px;
     padding:8px 30px;
     font-size:12px;
@@ -881,7 +880,8 @@ header {
 }
 
 .cart-btn iconify-icon{
-    font-size:12px;
+    font-size:15px;
+    color:#232222;
 }
 
 .cart-btn:hover{
@@ -923,33 +923,33 @@ header {
 }
 
 .promo-content h2{
-    font-size:14px;
+    font-size:12px;
     font-weight:600;
     line-height:1;
     font-style:italic;
-    margin-bottom:20px;
+    margin-bottom:15px;
 }
 
 .promo-content p{
-    font-size:10px;
+    font-size:8px;
     line-height:1.8;
-    margin-bottom:16px;
+    margin-bottom:14px;
     color:#e8e8e8;
 }
 .promo-content a{
     display:inline-flex;
     align-items:center;
     gap:8px;
-    color:#fff;
+    color:#7c8e2f;
     text-decoration:none;
     font-size:12px;
     font-weight:600;
-    border-bottom:2px solid #fff;
+    border-bottom:1px solid #7c8e2f;
     transition:.3s;
 }
 .promo-content a:hover{
     color:#7c8e2f;
-    border-bottom:2px solid #7c8e2f;
+    border-bottom:1px solid #7c8e2f;
 
 }
 .best-sellers{
@@ -963,12 +963,11 @@ header {
 }
 
 .best-sellers-grid{
-    display: flex;
+   display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-items: center;
     overflow-x: auto;
-    gap: 16px;
-    padding-bottom: 10px;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
 }
 
 .best-sellers-grid::-webkit-scrollbar{
@@ -993,9 +992,26 @@ header {
 }
 
 .best-sellers-card .cart-btn{
-    padding: 8px 25px;
-    font-size: 12px;
+    margin-top:18px;
+    background:none;
+    border:1px solid #232222;
+    border-radius:999px;
+    padding:8px 30px;
+    font-size:12px;
+    cursor:pointer;
+    transition:.3s;
+    display:flex;
+    gap:8px;
 }
+
+.best-sellers-card .cart-btn iconify-icon{
+    font-size:15px;
+    color:inherit;
+}
+
+.best-sellers-card .cart-btn:hover{
+    background:var(--bt-color);
+    color:#fff;
 }
 
 
