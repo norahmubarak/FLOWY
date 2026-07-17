@@ -979,12 +979,12 @@ header {
 
 
 .best-sellers-card{
-    flex:0 0 100%;
+    flex:0 0 100px;
     
 }
 
 .best-sellers-image img{
-    height: 250px;
+    height: 200px;
 }
 
 .best-sellers-card h3{
